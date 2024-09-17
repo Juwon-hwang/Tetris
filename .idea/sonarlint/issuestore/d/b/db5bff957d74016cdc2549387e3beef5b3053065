@@ -1,0 +1,69 @@
+
+\
+java:S1192X"FDefine a constant instead of duplicating this literal "Arial" 3 times.(Ä¯‹Ş
+g
+java:S1301v"KReplace this "switch" statement by "if" statements to increase readability.(°Âò88Í‡ôùÂ1
+h
+java:S1301‰"KReplace this "switch" statement by "if" statements to increase readability.(°Âò88Í‡ôùÂ1
+h
+java:S1301¡"KReplace this "switch" statement by "if" statements to increase readability.(°Âò88Î‡ôùÂ1
+h
+java:S1301·"KReplace this "switch" statement by "if" statements to increase readability.(°Âò88Î‡ôùÂ1
+h
+java:S1301Õ"KReplace this "switch" statement by "if" statements to increase readability.(°Âò88Ï‡ôùÂ1
+h
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°Âò88Ï‡ôùÂ1
+j	java:S116"URename this field "BoardWidth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¬×Æ
+p	java:S116"VRename this field "BoardHeight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ñ¡òøÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(š¬×Æ
+<
+java:S1170"!Make this final field static too.(¼ñ¡òøÿÿÿÿ
+E
+java:S1948""*Make "curPiece" transient or serializable.(ãÈñåøÿÿÿÿ
+F
+java:S1948#"+Make "curPiece2" transient or serializable.(æÏÊ„ùÿÿÿÿ
+S
+java:S1481_"1Remove this unused "linesCleared" local variable.(ŒàÒšıÿÿÿÿ8Å£ôùÂ1
+O
+java:S1481b"2Remove this unused "linesCleared2" local variable.(˜´Á„8Æ£ôùÂ1
+V
+java:S6213m":Rename this variable to not match a restricted identifier.(Ùıì!8Ç£ôùÂ1
+V
+java:S6213t":Rename this variable to not match a restricted identifier.(÷ˆ“8É£ôùÂ1
+=	java:S131v""Add a default case to this switch.(°Âò88É£ôùÂ1
+p
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¶øÂÁ8Í£ôùÂ1
+X
+java:S1161£":Add the "@Override" annotation above this method signature(¶øÂÁ8Ï£ôùÂ1
+X
+java:S6213†":Rename this variable to not match a restricted identifier.(Üìâñ8Ü£ôùÂ1
+>	java:S131‰""Add a default case to this switch.(°Âò88İ£ôùÂ1
+]
+java:S6213 ":Rename this variable to not match a restricted identifier.(Ó˜ëõşÿÿÿÿ8İ£ôùÂ1
+>	java:S131¡""Add a default case to this switch.(°Âò88Ş£ôùÂ1
+]
+java:S6213µ":Rename this variable to not match a restricted identifier.(½ÔÌ§ıÿÿÿÿ8à£ôùÂ1
+>	java:S131·""Add a default case to this switch.(°Âò88à£ôùÂ1
+X
+java:S6213Ô":Rename this variable to not match a restricted identifier.(ˆüÅŠ8ä£ôùÂ1
+>	java:S131Õ""Add a default case to this switch.(°Âò88å£ôùÂ1
+u
+java:S3776ô"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Æçúèşÿÿÿÿ8è£ôùÂ1
+]
+java:S6213ô":Rename this variable to not match a restricted identifier.(Æçúèşÿÿÿÿ8ğ£ôùÂ1
+p
+java:S3776š"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(Ô™Ş²8ô£ôùÂ1
+X
+java:S6213š":Rename this variable to not match a restricted identifier.(Ô™Ş²8ö£ôùÂ1
+n	java:S128Ÿ"LEnd this switch case with an unconditional break, return or throw statement.(ªëÅŞúÿÿÿÿ8÷£ôùÂ1
+>	java:S131""Add a default case to this switch.(°Âò88÷£ôùÂ1
+W
+java:S1161ï":Add the "@Override" annotation above this method signature(İ¼õA8‚¤ôùÂ1
+?	java:S131ÿ""Add a default case to this switch.(ÖÅ«Á8…¤ôùÂ1
+?
+java:S3398†"!Move this method into "TAdapter".(Üìâñ8Š¤ôùÂ1
+D
+java:S3398”"!Move this method into "TAdapter".(¦ñ“üÿÿÿÿ8‹¤ôùÂ1
+D
+java:S1068".Remove this unused "isGameOver" private field.(¾á¬£

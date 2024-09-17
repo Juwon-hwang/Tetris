@@ -1,0 +1,11 @@
+
+G
+java:S1948"1Make "backgroundMusic" transient or serializable.(¢¬ÎŠ
+T
+java:S1948"2Make "buttonClickSound" transient or serializable.(—´©úÿÿÿÿ8¥‰§ËÂ1
+e
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ºÀœx8§‰§ËÂ1
+g
+java:S3252/"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(ä¡²ùÿÿÿÿ8­‰§ËÂ1
+J
+java:S1905:"(Remove this unnecessary cast to "float".(Î¸³°ûÿÿÿÿ8áËîØÂ1

@@ -1,0 +1,13 @@
+
+e
+java:S1192H"HDefine a constant instead of duplicating this literal "MV Boli" 3 times.(Ώ¨‹§8Λ¥κΨΒ1
+m	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Γ΅ΉΕ8Π¥κΨΒ1
+l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ϋÿƒόÿÿÿÿ
+l	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ϋτύÿÿÿÿ
+G
+java:S1948"1Make "backgroundMusic" transient or serializable.(Ά¬Ξ
+T
+java:S1948"2Make "buttonClickSound" transient or serializable.(—΄©ϊÿÿÿÿ8¬¦κΨΒ1
+e
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Ίΐx8Ή¦κΨΒ1
+i	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ζµÿÿÿÿÿ

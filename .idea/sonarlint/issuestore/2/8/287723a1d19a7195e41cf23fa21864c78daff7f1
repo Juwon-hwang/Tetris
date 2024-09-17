@@ -1,0 +1,38 @@
+
+6
+java:S1700""Rename field "board"(ÙÓºàıÿÿÿÿ8»“ÓØÂ1
+q	java:S116"URename this field "BoardWidth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¬×Æ8·¦ÓØÂ1
+w	java:S116"VRename this field "BoardHeight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ñ¡òøÿÿÿÿ8·¦ÓØÂ1
+>
+java:S1170"!Make this final field static too.(š¬×Æ8Ä¦ÓØÂ1
+C
+java:S1170"!Make this final field static too.(¼ñ¡òøÿÿÿÿ8Ç¦ÓØÂ1
+L
+java:S1948!"*Make "curPiece" transient or serializable.(ãÈñåøÿÿÿÿ8Ó¦ÓØÂ1
+M
+java:S1948#"+Make "nextPiece" transient or serializable.(¼”•¿ÿÿÿÿÿ8Ô¦ÓØÂ1
+H
+java:S1948*"+Make "holdPiece" transient or serializable.(µÔœ¨8Ö¦ÓØÂ1
+M
+java:S1948+"0Make "lineClearSound" transient or serializable.(Ö÷³8×¦ÓØÂ1
+M
+java:S1948,"0Make "blockDropSound" transient or serializable.(ÌÉÄÙ8Ø¦ÓØÂ1
+O
+java:S1948-"2Make "buttonClickSound" transient or serializable.(íÆüÀ8Ø¦ÓØÂ1
+L
+java:S1948."/Make "gameOverSound" transient or serializable.(›Å¸8Ù¦ÓØÂ1
+X
+java:S1161™":Add the "@Override" annotation above this method signature(¶øÂÁ8‚’ãûÂ1
+Q
+java:S1172"3Remove this unused method parameter "numFullLines".(ŸÃÂ½8§êÚüÂ1
+W
+java:S1161³":Add the "@Override" annotation above this method signature(İ¼õA8©ÓØÂ1
+?	java:S131Ã""Add a default case to this switch.(ÖÅ«Á8²©ÓØÂ1
+|
+java:S2142ê"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(æ¹Áä8î¿¤ÉÂ1
+D
+java:S3398ê"!Move this method into "TAdapter".(“¹ü÷ûÿÿÿÿ8Ù©ÓØÂ1
+C
+java:S3398t"!Move this method into "TAdapter".(¦ñ“üÿÿÿÿ8×©ÓØÂ1
+K
+java:S1068&".Remove this unused "isGameOver" private field.(¾á¬£8ïœúüÂ1

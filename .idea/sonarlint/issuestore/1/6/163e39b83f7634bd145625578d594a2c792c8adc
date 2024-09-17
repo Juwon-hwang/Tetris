@@ -1,0 +1,9 @@
+
+j
+java:S11921"HDefine a constant instead of duplicating this literal "MV Boli" 3 times.(³éµ‘üÿÿÿÿ8ç¬²Ã1
+N
+java:S1948"1Make "backgroundMusic" transient or serializable.(¢¬ÎŠ8ó¬²Ã1
+O
+java:S1948"2Make "buttonClickSound" transient or serializable.(„ôí…8ô¬²Ã1
+e
+java:S3252b"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ºÀœx8ü¬²Ã1

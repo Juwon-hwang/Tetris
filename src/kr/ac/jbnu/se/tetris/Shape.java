@@ -1,12 +1,11 @@
-package kr.ac.jbnu.se.tetris;
+package src.kr.ac.jbnu.se.tetris;
 
 import java.util.Random;
 
 public class Shape {
 
 	private Tetrominoes pieceShape;
-	private int coords[][];
-	private int[][][] coordsTable;
+	private final int[][] coords;
 
 	public Shape() {
 		coords = new int[4][2];
@@ -15,16 +14,14 @@ public class Shape {
 
 	public void setShape(Tetrominoes shape) {
 
-		coordsTable = new int[][][] { { { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 } },
-				{ { 0, -1 }, { 0, 0 }, { -1, 0 }, { -1, 1 } }, { { 0, -1 }, { 0, 0 }, { 1, 0 }, { 1, 1 } },
-				{ { 0, -1 }, { 0, 0 }, { 0, 1 }, { 0, 2 } }, { { -1, 0 }, { 0, 0 }, { 1, 0 }, { 0, 1 } },
-				{ { 0, 0 }, { 1, 0 }, { 0, 1 }, { 1, 1 } }, { { -1, -1 }, { 0, -1 }, { 0, 0 }, { 0, 1 } },
-				{ { 1, -1 }, { 0, -1 }, { 0, 0 }, { 0, 1 } } };
+		int[][][] coordsTable = new int[][][]{{{0, 0}, {0, 0}, {0, 0}, {0, 0}},
+				{{0, -1}, {0, 0}, {-1, 0}, {-1, 1}}, {{0, -1}, {0, 0}, {1, 0}, {1, 1}},
+				{{0, -1}, {0, 0}, {0, 1}, {0, 2}}, {{-1, 0}, {0, 0}, {1, 0}, {0, 1}},
+				{{0, 0}, {1, 0}, {0, 1}, {1, 1}}, {{-1, -1}, {0, -1}, {0, 0}, {0, 1}},
+				{{1, -1}, {0, -1}, {0, 0}, {0, 1}}};
 
 		for (int i = 0; i < 4; i++) {
-			for (int j = 0; j < 2; ++j) {
-				coords[i][j] = coordsTable[shape.ordinal()][i][j];
-			}
+            System.arraycopy(coordsTable[shape.ordinal()][i], 0, coords[i], 0, 2);
 		}
 		pieceShape = shape;
 
@@ -55,14 +52,6 @@ public class Shape {
 		int x = Math.abs(r.nextInt()) % 7 + 1;
 		Tetrominoes[] values = Tetrominoes.values();
 		setShape(values[x]);
-	}
-
-	public int minX() {
-		int m = coords[0][0];
-		for (int i = 0; i < 4; i++) {
-			m = Math.min(m, coords[i][0]);
-		}
-		return m;
 	}
 
 	public int minY() {

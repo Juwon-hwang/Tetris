@@ -1,0 +1,15 @@
+
+t
+java:S1450"WRemove the "mainMenu" field and declare it as a local variable in the relevant methods.(Öß8†¸ãÿÂ1
+N
+java:S1948"1Make "backgroundMusic" transient or serializable.(¢¬ÎŠ8†¸ãÿÂ1
+O
+java:S1948"2Make "buttonClickSound" transient or serializable.(„ôí…8‡¸ãÿÂ1
+e
+java:S3252A"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ºÀœx8Œ¸ãÿÂ1
+b
+java:S3252Z"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(³ëä8¸ãÿÂ1
+E
+java:S1905^"(Remove this unnecessary cast to "float".(Ìâæ·8èÄçÿÂ1
+M
+java:S1144H"0Remove this unused private "createLabel" method.(­””8“¸ãÿÂ1
